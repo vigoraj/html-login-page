@@ -95,6 +95,22 @@ body {
       }
     }
   }
+
+  .sidebar-close {
+    display: block;
+    padding: 14px 16px;
+    text-align: right;
+    border-bottom: 1px solid #c9c4c4;
+    button {
+      border: 1px solid #c9c4c4;
+      padding: 4px 10px;
+      font-size: 20px;
+      background-color: #fff;
+      border-radius: 100%;
+      cursor: pointer;
+      color: #c9c4c4;
+    }
+  }
 }
 
 .container {
@@ -108,7 +124,6 @@ body {
     border-bottom: 1px solid #c9c4c4;
     padding: 20px 20px;
     a {
-      // border-left: 1px solid #c9c4c4;
       padding-left: 10px;
     }
   }

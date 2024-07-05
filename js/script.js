@@ -1,7 +1,5 @@
 "use strict";
 
-// import userIcon from "./images";
-
 document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.getElementById("loginForm");
   const displayname = document.getElementById("displayname");
@@ -20,16 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // console.log(userIcon);
+  // dashboard page
 });
 
 const user = localStorage.getItem("Name");
 const checkbox = document.getElementById("rememberMe");
 
-
-
-// const isChecked = checkbox.checked;
-
+// checkbox.checked = true
 displayname.innerHTML = user;
 
 const logout = () => {
